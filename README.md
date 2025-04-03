@@ -2,7 +2,7 @@
 
 Aplicación móvil desarrollada en **Kotlin** con **Android Studio**, diseñada para usuarios administradores del sistema PuntoVentaCloud. Permite consultar informes clave del sistema en tiempo real mediante integración con la API RESTful.
 
-## 📱 Descripción General
+##  Descripción General
 
 La aplicación está enfocada en la consulta de datos relevantes del negocio de manera rápida, segura y eficiente. Brinda acceso a:
 
@@ -12,13 +12,13 @@ La aplicación está enfocada en la consulta de datos relevantes del negocio de 
 
 Accede a esta información filtrando por rangos de fechas y obteniendo los resultados directamente desde la API, todo dentro de una interfaz moderna construida con Jetpack Compose.
 
-## 🔐 Seguridad
+##  Seguridad
 
 - Autenticación segura mediante **JWT (JSON Web Tokens)**
 - Gestión de sesión mediante un **TokenManager**
 - Comunicación HTTP autenticada para proteger el acceso a los endpoints
 
-## 🧩 Arquitectura
+##  Arquitectura
 
 La aplicación sigue el patrón **MVVM (Model-View-ViewModel)** para lograr una separación clara de responsabilidades:
 
@@ -26,13 +26,13 @@ La aplicación sigue el patrón **MVVM (Model-View-ViewModel)** para lograr una 
 - **ViewModels**: Controlan la lógica de negocio y el estado de cada pantalla.
 - **ApiService**: Cliente HTTP que maneja las solicitudes y respuestas a la API usando **Retrofit**.
 
-## 🎨 UI y Experiencia de Usuario
+##  UI y Experiencia de Usuario
 
 - Construida con **Jetpack Compose**, utilizando un **Theme personalizado**
 - Estructura de navegación basada en **AppScaffold** y **Compose Navigation**
 - Manejo de listas extensas con **LazyColumn** (Lazy Loading)
 
-## 🔧 Herramientas y Tecnologías
+##  Herramientas y Tecnologías
 
 | Herramienta         | Uso principal                            |
 |---------------------|-------------------------------------------|
@@ -44,7 +44,7 @@ La aplicación sigue el patrón **MVVM (Model-View-ViewModel)** para lograr una 
 | JWT                 | Autenticación segura                     |
 
 
-## 📈 Funcionalidades
+##  Funcionalidades
 
 - **Autenticación de usuario**
 - **Informe de Ventas**: Detalles por fecha y hora
@@ -53,7 +53,7 @@ La aplicación sigue el patrón **MVVM (Model-View-ViewModel)** para lograr una 
 - **Navegación fluida** entre reportes y menús
 - **Persistencia de sesión** mediante token
 
-## ✅ Ventajas
+##  Ventajas
 
 - Modular y mantenible
 - Experiencia fluida con grandes volúmenes de datos
@@ -61,7 +61,7 @@ La aplicación sigue el patrón **MVVM (Model-View-ViewModel)** para lograr una 
 - Diseño moderno e intuitivo
 - Preparada para escalabilidad futura
 
-## 🚀 Instalación
+##  Instalación
 
 1. Clona este repositorio
 2. Abre el proyecto en Android Studio
